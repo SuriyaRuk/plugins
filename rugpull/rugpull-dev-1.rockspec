@@ -11,7 +11,7 @@ build = {
    type = "builtin",
    modules = {
       ["kong.plugins.rugpull.handler"] = "rugpull/kong/plugins/rugpull/handler.lua",
-      ["kong.plugins.rugpull.schema"] = "rugpull/kong/plugins/rugpull/schema.lua"
+      ["kong.plugins.rugpull.schema"] = "rugpull/kong/plugins/rugpull/schema.lua",
       ["kong.plugins.rugpull.access"] = "rugpull/kong/plugins/rugpull/access.lua"
    }
 }
